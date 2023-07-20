@@ -2,8 +2,11 @@ export function capitalize(word: string): string {
     return word.charAt(0).toUpperCase() + word.slice(1);
   }
    
-  export function multiply(a: number, b: number): number {
+export function multiply(a: number, b: number): number {
     return a * b;
-  }
+}
    
-  // Add more functions as needed
+// Add more functions as needed
+export function fibonacci(num: number): number {
+    return -1;
+}
