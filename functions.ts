@@ -8,5 +8,11 @@ export function multiply(a: number, b: number): number {
    
 // Add more functions as needed
 export function fibonacci(num: number): number {
-    return -1;
+    const sol = [0, 1];
+
+    for (let index = 2; index<= num; index++) {
+        sol[index] = sol[index -1] + sol[index - 2];
+    }
+
+    return sol[num];
 }
